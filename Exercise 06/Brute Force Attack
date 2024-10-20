@@ -1,0 +1,24 @@
+#Exercise 6 - Brute Force Attack
+#Denise Marielle Menguita
+#--------------------------------
+
+#define the correct password
+password = "12345"
+
+#variable
+attempts = 5
+
+while attempts > 0:
+    pass_user = input("Enter the password: ") #get input from user
+
+    if pass_user == password: #correct input = access granted
+        print("Access granted!")
+        break
+    
+    else:
+        attempts -= 1 #incorrect input = -1 attempt
+        if attempts > 0:
+            print(f"Access denied. You have {attempts} attempts left.")
+        else:
+            print("Access denied. No attempts left.",
+                    "Authorities have been alerted.")
