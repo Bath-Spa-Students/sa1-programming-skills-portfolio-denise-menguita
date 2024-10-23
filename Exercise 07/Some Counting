@@ -1,0 +1,30 @@
+#Exercise 7: Some Counting
+#Denise Marielle Menguita
+'''
+Use your newly acquired knowledge of the for loop to complete the following
+tasks. Print all values to the console in each case. You may include all loops in a single project.
+1) Write a loop that counts up from 0 to 50 in increments of 1.
+2) Write a loop that counts down from 50 to 0 in decrements of 1.
+3) Write a loop that counts up from 30 to 50 in increments of 1.
+4) Write a loop that counts down from 50 to 10 in decrements of 2.
+5) Write a loop that counts up from 100 to 200 in increments of 5.
+'''
+print("A loop that counts up from 0 to 50 in increments of 1.")
+for i in range(0, 51, 1):
+    print(i)
+
+print("A loop that counts down from 50 to 0 in decrements of 1.")
+for ii in range(50, 0, -1):
+    print(ii)
+
+print("A loop that counts up from 30 to 50 in increments of 1.")
+for iii in range(30, 51, 1):
+    print(iii)
+
+print("A loop that counts down from 50 to 10 in decrements of 2.")
+for iiii in range(50, 8, -2):
+    print(iiii)
+
+print("A loop that counts up from 100 to 200 in increments of 5.")
+for iiiii in range(100, 205, 5):
+    print(iiiii)

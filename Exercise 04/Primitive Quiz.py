@@ -20,7 +20,7 @@ if (parisinput.lower() == paris.lower() and parisinput.upper() == paris.upper())
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Paris.")
 
 #2: ENGLAND - LONDON
 london = "London"
@@ -30,7 +30,7 @@ if (londoninput.lower() == london.lower() and londoninput.upper() == london.uppe
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is London.")
     
 #3: GREECE - ATHENS
 athens = "Athens"
@@ -40,7 +40,7 @@ if (athensinput.lower() == athens.lower() and athensinput.upper() == athens.uppe
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Athens.")
     
 #4: ITALY - ROME
 rome = "Rome"
@@ -50,7 +50,7 @@ if (romeinput.lower() == rome.lower() and romeinput.upper() == rome.upper()):
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Rome.")
     
 #5: GERMANY - BERLIN
 berlin = "Berlin"
@@ -60,7 +60,7 @@ if (berlininput.lower() == berlin.lower() and berlininput.upper() == berlin.uppe
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Berlin.")
     
 #6: GREENLAND - NUUK
 nuuk = "Nuuk"
@@ -70,7 +70,7 @@ if (nuukinput.lower() == nuuk.lower() and nuukinput.upper() == nuuk.upper()):
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Nuuk.")
     
 #7: SWITZERLAND - BERN
 bern = "Bern"
@@ -80,7 +80,7 @@ if (berninput.lower() == bern.lower() and berninput.upper() == bern.upper()):
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Bern.")
     
 #8: AUSTRIA - VIENNA
 vienna = "Vienna"
@@ -91,7 +91,7 @@ if (viennainput.lower() == vienna.lower() and viennainput.upper() == vienna.uppe
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Vienna.")
     
 #9: DENMARK - COPENHAGEN
 copenhagen = "Copenhagen"
@@ -101,7 +101,7 @@ if (copenhageninput.lower() == copenhagen.lower() and copenhageninput.upper() ==
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Copenhagen.")
     
 #10: BULGARIA - SOFIA
 sofia = "Sofia"
@@ -112,4 +112,4 @@ if (sofiainput.lower() == sofia.lower() and sofiainput.upper() == sofia.upper())
     print("Correct!")
 
 else:
-    print("Incorrect.")
+    print("Incorrect. The answer is Sofia.")
