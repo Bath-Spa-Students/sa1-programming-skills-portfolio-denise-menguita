@@ -1,0 +1,8 @@
+#Exercise 8 - Simple Search
+#Denise Marielle Menguita
+#--------------------------------
+
+#list of names
+names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+
+search_name = input()
