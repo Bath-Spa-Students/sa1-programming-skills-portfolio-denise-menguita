@@ -1,8 +1,20 @@
 #Exercise 8 - Simple Search
 #Denise Marielle Menguita
 #--------------------------------
+'''
+Write a program that searches for a specific string within a list of strings.
+The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", "Dave"). , and your task is to search for "Sam".
 
-#list of names
-names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+Optional Requirements:
+Allow the user to input the search term instead of using a predefined value.
+Implement the search functionality based on user input.
+'''
 
-search_name = input()
+names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] #list of names
+
+search_name = input(("Enter name: ")) #get input
+
+if search_name in names: #search for the name
+    print(search_name, "found in the list.")
+else:
+    print(search_name, "not found in the list.")
