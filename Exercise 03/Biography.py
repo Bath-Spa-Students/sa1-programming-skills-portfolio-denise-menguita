@@ -23,8 +23,8 @@ my_bio = {
         "age" : 19
 }
 
-print("My name is", my_bio["name"] + "."
-      "\nMy hometown is", my_bio["hometown"] + ",",
+print("My name is", my_bio["name"] + "." #display my bio
+      "\nMy hometown is", my_bio["hometown"] + ",", #\n for new line
       "\nand I am", my_bio["age"], "years old.")
 
 while True:
@@ -48,10 +48,11 @@ while True:
                 continue
 print(age2)
 
+#Dictionary of user's bio
 user_bio = {
         "name": name2,
         "hometown": hometown2,
         "age": age2
 }
 
-print("You are", user_bio)
+print("You are", user_bio) #display user bio
