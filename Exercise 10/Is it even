@@ -1,11 +1,9 @@
-#Exercise 8 - Simple Search
+#Exercise 10 - Is it even?
 #Denise Marielle Menguita
 '''
-Write a program that tests if a value is even or odd. Follow the instructions
-outlined below:
+Write a program that tests if a value is even or odd. Follow the instructions outlined below:
 Instructions:
-• The program should ask the user for a number from within the main
-function.
+• The program should ask the user for a number from within the main function.
 • The entered number should be passed to a function that determines if the
 value is even or odd.
 • The function should return a message indicating whether the number is
@@ -14,9 +12,17 @@ even or odd.
 main function.
 '''
 
-num = int(input())
+def even_or_odd(num):
+    if num % 2 == 0:
+        return f"{num} is an even number."
+    else:
+        return f"{num} is an odd number."
 
-if num % 2 == 0:
-    print(num, "is an even number.")
-else:
-    print(num, "is an odd number.")
+def main():
+    try:
+        num = int(input("Enter a number: "))
+        result = even_or_odd(num)
+        print(result)
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
+main()
