@@ -1,6 +1,5 @@
-#Exercise 2 - Simple Sums
+#Exercise 2: Simple Sums
 #Denise Marielle Menguita
-
 '''
 In this exercise, you will create and work with integer variables, perform arithmetic operations, and print the result to the console.
 
@@ -11,8 +10,8 @@ Declare a third variable that stores the sum of first two numbers.
 Print the value of the sum to the console.
 '''
 
-num1 = 8
+num1 = 8 #variables
 num2 = 10
-sum = num1 + num2
+sum = num1 + num2 #add the numbers
 
-print(sum)
+print(sum) #display the sum
