@@ -11,8 +11,9 @@ word3 =
 _____(_________)
 '''
 
-word1 = "tea " #variables
-word2 = "coffee "
-word3 = "juice"
+#variables
+word1 = "Coding "
+word2 = "is "
+word3 = "Cool"
 
 print(word1 + word2 + word3) #print the variables
