@@ -39,7 +39,7 @@ while True:
                 age2 = int(input("How old are you?: ")) #get int input from user
                 break
         except ValueError:
-                print("Please input a number...") #sends an error when other datatype is given
+                print("Please input an integer...") #sends an error when other datatype is given
                 continue
 print(age2)
 
