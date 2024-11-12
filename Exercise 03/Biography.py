@@ -1,6 +1,5 @@
-#Exercise 3 Biography
+#Exercise 3: Biography
 #Denise Marielle Menguita
-
 '''
 In this exercise, you'll create a program that stores and prints your name, hometown, and age to the console using a Python dictionary.
 
@@ -16,35 +15,31 @@ What happens? How can you handle multiple words in Python? Test the program by e
 What happens? How can you prevent this issue?
 '''
 
-#Create dictionary
+#Step 1: Create dictionary
 my_bio = {
         "name" : "Denise",
         "hometown" : "Cavite",
         "age" : 19
 }
 
+#Step 2 & 3: Print the values
 print("My name is", my_bio["name"] + "." #display my bio
       "\nMy hometown is", my_bio["hometown"] + ",", #\n for new line
       "\nand I am", my_bio["age"], "years old.")
 
-while True:
-        try:
-                name2 = (input("What's your name?")) #get input from user
-                break
-        except ValueError:
-                print("Please input letters only...")  
-                continue
+#Advanced Requirements
+name2 = (input("What's your name?: ")) #get input from user
 print(name2)
 
-hometown2 = (input("Where are you from?")) #get input from user
+hometown2 = (input("Where are you from?: ")) #get input from user
 print(hometown2)
 
 while True:
         try:
-                age2 = int(input("How old are you?")) #get int input from user
+                age2 = int(input("How old are you?: ")) #get int input from user
                 break
         except ValueError:
-                print("Please input a number...")  
+                print("Please input a number...") #sends an error when other datatype is given
                 continue
 print(age2)
 
