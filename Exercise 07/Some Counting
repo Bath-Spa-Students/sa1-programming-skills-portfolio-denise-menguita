@@ -15,7 +15,7 @@ for i in range(0, 51, 1):
     print(i)
 
 print("A loop that counts down from 50 to 0 in decrements of 1.")
-for ii in range(50, 0, -1):
+for ii in range(50, -1, -1):
     print(ii)
 
 print("A loop that counts up from 30 to 50 in increments of 1.")
