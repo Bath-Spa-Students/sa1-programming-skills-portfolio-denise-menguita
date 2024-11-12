@@ -15,14 +15,14 @@ What happens? How can you handle multiple words in Python? Test the program by e
 What happens? How can you prevent this issue?
 '''
 
-#Step 1: Create dictionary
+#Steps 1 & 3: Create dictionary
 my_bio = {
         "name" : "Denise",
         "hometown" : "Cavite",
         "age" : 19
 }
 
-#Step 2 & 3: Print the values
+#Step 2: Print the values
 print("My name is", my_bio["name"] + "." #display my bio
       "\nMy hometown is", my_bio["hometown"] + ",", #\n for new line
       "\nand I am", my_bio["age"], "years old.")
